@@ -21,6 +21,21 @@ namespace Animal
             }
         }
 
+        public class Cat : Animal
+        {
+            public void run()
+            {
+                Console.WriteLine("cat is running..");
+            }
+        }
+
+        public class Bird: Animal
+        {
+            public void fly()
+            {
+                Console.WriteLine("bird is flying...");
+            }
+        }
         
         static void Main(string[] args)
         {
